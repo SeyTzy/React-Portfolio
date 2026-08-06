@@ -38,7 +38,7 @@ export const projects: Project[] = [
       'This premium portfolio — a high-performance, animated showcase built with React, Vite, Tailwind, GSAP and Framer Motion.',
     image: '/projects/portfolio.svg',
     categories: ['React'],
-    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'GSAP'],
+    technologies: ['HTML', 'CSS', 'JavaScript',],
     liveUrl: 'https://portfolio-v1-5nql11omh-seytzys-projects.vercel.app',
     githubUrl: 'https://github.com/SeyTzy/',
   },
