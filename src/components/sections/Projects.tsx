@@ -54,15 +54,17 @@ function ProjectCard({ project }: { project: Project }) {
             >
               <FiExternalLink />
             </a>
-            <a
-              href={project.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`GitHub repository of ${project.title}`}
-              className="glass flex h-11 w-11 items-center justify-center rounded-full text-body transition-transform duration-300 hover:scale-110"
-            >
-              <FiGithub />
-            </a>
+            {project.githubUrl && (
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`GitHub repository of ${project.title}`}
+                className="glass flex h-11 w-11 items-center justify-center rounded-full text-body transition-transform duration-300 hover:scale-110"
+              >
+                <FiGithub />
+              </a>
+            )}
           </div>
         </div>
 
@@ -90,15 +92,17 @@ function ProjectCard({ project }: { project: Project }) {
             >
               <FiExternalLink className="text-sm" /> Live Demo
             </a>
-            <a
-              href={project.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`GitHub for ${project.title}`}
-              className="glass inline-flex flex-1 items-center justify-center gap-2 rounded-full px-4 py-2.5 text-xs font-semibold text-body transition-all duration-300 hover:border-primary/40 hover:text-primary"
-            >
-              <FiGithub className="text-sm" /> GitHub
-            </a>
+            {project.githubUrl && (
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`GitHub for ${project.title}`}
+                className="glass inline-flex flex-1 items-center justify-center gap-2 rounded-full px-4 py-2.5 text-xs font-semibold text-body transition-all duration-300 hover:border-primary/40 hover:text-primary"
+              >
+                <FiGithub className="text-sm" /> GitHub
+              </a>
+            )}
           </div>
         </div>
       </div>

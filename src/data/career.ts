@@ -28,6 +28,19 @@ export const experience: ExperienceItem[] = [
     icon: 'code',
   },
   {
+    role: 'UX/UI Designer',
+    company: 'University Coursework',
+    period: '2024 — Present',
+    summary:
+      'Designed user-centric interfaces and conducted usability testing, focusing on creating intuitive and visually appealing digital experiences.',
+    highlights: [
+      'Designed wireframes and prototypes for web and mobile applications',
+      'Conducted user research and usability testing to inform design decisions',
+      'Collaborated with developers to ensure design feasibility and implementation',
+    ],
+    icon: 'code',
+  },
+  {
     role: 'Junior Developer (Internship)',
     company: 'School Projects & Competitions',
     period: '2022 — 2023',
@@ -39,6 +52,19 @@ export const experience: ExperienceItem[] = [
       'Participated in coding competitions',
     ],
     icon: 'zap',
+  },
+  {
+    role: 'Studio Photographer',
+    company: 'Freelance / Personal Projects',
+    period: '2024 — Present',
+    summary:
+      'Capturing compelling visual stories through careful composition, lighting, and post-processing techniques.',
+    highlights: [
+      'Photographed 10+ events and portraits, delivering high-quality images to clients',
+      'Utilized Adobe Photoshop and Lightroom for post-processing and retouching',
+      'Developed a personal photography portfolio website to showcase work and attract clients',
+    ],
+    icon: 'briefcase',
   },
 ]
 

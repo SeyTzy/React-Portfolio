@@ -15,6 +15,7 @@ const Skills = lazyLoad(() => import('@/components/sections/Skills'), 'Skills')
 const Experience = lazyLoad(() => import('@/components/sections/Experience'), 'Experience')
 const Education = lazyLoad(() => import('@/components/sections/Education'), 'Education')
 const Projects = lazyLoad(() => import('@/components/sections/Projects'), 'Projects')
+const GraphicDesign = lazyLoad(() => import('@/components/sections/GraphicDesign'), 'GraphicDesign')
 const Services = lazyLoad(() => import('@/components/sections/Services'), 'Services')
 const Achievements = lazyLoad(() => import('@/components/sections/Achievements'), 'Achievements')
 const TechStack = lazyLoad(() => import('@/components/sections/TechStack'), 'TechStack')
@@ -37,6 +38,7 @@ export function Home() {
       <LazySection Component={Experience} />
       <LazySection Component={Education} />
       <LazySection Component={Projects} />
+      <LazySection Component={GraphicDesign} />
       <LazySection Component={Services} />
       <LazySection Component={Achievements} />
       <LazySection Component={TechStack} />

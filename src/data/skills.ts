@@ -20,6 +20,7 @@ export const skillCategories: SkillCategory[] = [
     blurb: 'Robust APIs and services',
     skills: [
       { name: 'ASP.NET Core', level: 86, icon: 'dotnet' },
+      { name: 'Laravel', level: 80, icon: 'laravel' },
       { name: 'Node.js', level: 84, icon: 'nodejs' },
       { name: 'Express', level: 82, icon: 'express' },
     ],
@@ -31,6 +32,7 @@ export const skillCategories: SkillCategory[] = [
       { name: 'SQL Server', level: 85, icon: 'sqlserver' },
       { name: 'MySQL', level: 84, icon: 'mysql' },
       { name: 'MongoDB', level: 78, icon: 'mongodb' },
+      { name: 'PostgreSQL', level: 80, icon: 'postgresql' },
     ],
   },
   {

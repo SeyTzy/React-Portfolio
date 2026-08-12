@@ -5,7 +5,7 @@ export const projects: Project[] = [
     title: 'Phone Shop',
     description:
       'A modern ecommerce experience for mobile devices featuring product catalog, cart, checkout flow and admin inventory panel.',
-    image: '/projects/phone-shop.svg',
+    image: '/projects/phon_shop.png',
     categories: ['Angular'],
     technologies: ['Angular', 'TypeScript', 'Tailwind CSS', 'Firebase'],
     liveUrl: 'https://angular-mobile-shop-5vjrzntjy-seytzys-projects.vercel.app',
@@ -16,7 +16,7 @@ export const projects: Project[] = [
     title: 'Student Management System',
     description:
       'A full CRUD application for managing student records with search, filtering, pagination and beautiful reporting tables.',
-    image: '/projects/student-mgmt.svg',
+    image: '/projects/school_mgt.png',
     categories: ['Angular'],
     technologies: ['Angular', 'TypeScript', 'Bootstrap', 'REST API'],
     liveUrl: 'https://school-manangement-crud-1t94k8f81-seytzys-projects.vercel.app',
@@ -26,7 +26,7 @@ export const projects: Project[] = [
     title: 'ASP.NET Core REST API',
     description:
       'A production-style REST API with JWT authentication, role-based authorization, repository pattern and SQL Server persistence.',
-    image: '/projects/api.svg',
+    image: '/projects/web_api.png',
     categories: ['ASP.NET'],
     technologies: ['ASP.NET Core', 'Entity Framework', 'SQL Server', 'JWT'],
     liveUrl: 'https://seyhatfckboy.setec24.uk/swagger/index.html',
@@ -36,7 +36,7 @@ export const projects: Project[] = [
     title: 'Portfolio Website',
     description:
       'This premium portfolio — a high-performance, animated showcase built with React, Vite, Tailwind, GSAP and Framer Motion.',
-    image: '/projects/portfolio.svg',
+    image: '/projects/porfolio.png',
     categories: ['React'],
     technologies: ['HTML', 'CSS', 'JavaScript',],
     liveUrl: 'https://portfolio-v1-5nql11omh-seytzys-projects.vercel.app',
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     title: 'E-commerce Platform',
     description:
       'A modern ecommerce experience for mobile devices featuring product catalog, cart, checkout flow and admin inventory panel.',
-    image: '/projects/inventrack.svg',
+    image: '/projects/ecomerc.png',
     categories: ['React'],
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'GSAP'],
     liveUrl: 'https://e-commerce-platform-3kcb9m8eo-seytzys-projects.vercel.app',
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     title: 'MegaMart E-commerce',
     description:
       'A modern ecommerce experience for mobile devices featuring product catalog, cart, checkout flow and admin inventory panel.',
-    image: '/projects/api.svg',
+    image: '/projects/mega_mart.png',
     categories: ['Full Stack'],
     technologies: ['Angular', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Rest API'],
     liveUrl: 'https://web-final2-vyn2svycc-seytzys-projects.verel.app',
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     title: 'ABA Mobile App UX/UI Design',
     description:
       'Designing a mobile application for ABA therapy, focusing on user experience and interface design to enhance accessibility and usability for users.',
-    image: '/projects/portfolio.svg',
+    image: '/projects/aba_app1.jpg',
     categories: ['Figma'],
     technologies: ['Figma'],
     liveUrl: 'https://www.figma.com/proto/jwToLuXKx6LrPpkP6BbiXX/Final-ABA-Project?node-id=259-1765&t=d6ngL1j1BopdqOly-1&starting-point-node-id=259%3A1765',
@@ -77,7 +77,7 @@ export const projects: Project[] = [
     title: 'Zendo App UX/UI Design',
     description:
       'Designing a mobile application for ABA therapy, focusing on user experience and interface design to enhance accessibility and usability for users.',
-    image: '/projects/portfolio.svg',
+    image: '/projects/zendo_app.png',
     categories: ['Figma'],
     technologies: ['Figma'],
     liveUrl: 'https://www.figma.com/proto/cpGbCF408gXxQbF0wMUoed/Final_UX-UI?node-id=3375-217&t=jONEaff5W5ku6LxF-1&starting-point-node-id=3454%3A288',

@@ -22,6 +22,8 @@ import {
   SiRedux,
   SiDocker,
   SiFirebase,
+  SiLaravel,
+  SiPostgresql,
 } from 'react-icons/si'
 import { TbBrandVscode, TbBrandVisualStudio, TbBrandAws, TbApi, TbWifi, TbWorld, TbShieldCheck, TbRefresh, TbComponents, TbSql } from 'react-icons/tb'
 import { FaBriefcase, FaCode, FaMobileAlt, FaPalette, FaDatabase, FaServer, FaTools, FaGraduationCap } from 'react-icons/fa'
@@ -46,9 +48,11 @@ const registry = {
   dotnet: SiDotnet,
   nodejs: SiNodedotjs,
   express: SiExpress,
+  laravel: SiLaravel,
   sqlserver: TbSql,
   mysql: SiMysql,
   mongodb: SiMongodb,
+  postgresql: SiPostgresql,
   git: SiGit,
   github: SiGithub,
   vscode: TbBrandVscode,
