@@ -24,6 +24,8 @@ import {
   SiFirebase,
   SiLaravel,
   SiPostgresql,
+  SiVuedotjs,
+  SiNuxt,
 } from 'react-icons/si'
 import { TbBrandVscode, TbBrandVisualStudio, TbBrandAws, TbApi, TbWifi, TbWorld, TbShieldCheck, TbRefresh, TbComponents, TbSql } from 'react-icons/tb'
 import { FaBriefcase, FaCode, FaMobileAlt, FaPalette, FaDatabase, FaServer, FaTools, FaGraduationCap } from 'react-icons/fa'
@@ -43,6 +45,8 @@ const registry = {
   typescript: SiTypescript,
   react: SiReact,
   angular: SiAngular,
+  vue: SiVuedotjs,
+  nuxt: SiNuxt,
   tailwind: SiTailwindcss,
   bootstrap: SiBootstrap,
   dotnet: SiDotnet,

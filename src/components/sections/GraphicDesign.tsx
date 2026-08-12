@@ -119,12 +119,12 @@ export function GraphicDesign() {
         </p>
         <div className="mt-8 flex justify-center">
           <a
-            href="/Photo_books.pdf"
+            href="https://drive.google.com/drive/folders/1DWa85IT5d47k5tUWwcOlNXGhWr-gKxI9?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white shadow-md shadow-primary/25 transition-all duration-300 hover:brightness-110"
           >
-            View Photography Portfolio
+            View My Studio Photography
           </a>
         </div>
       </div>

@@ -10,6 +10,8 @@ export const skillCategories: SkillCategory[] = [
       { name: 'JavaScript', level: 90, icon: 'javascript' },
       { name: 'TypeScript', level: 88, icon: 'typescript' },
       { name: 'React', level: 92, icon: 'react' },
+      { name: 'Vue', level: 80, icon: 'vue' },
+      { name: 'Nuxt', level: 78, icon: 'nuxt' },
       { name: 'Angular', level: 80, icon: 'angular' },
       { name: 'Tailwind', level: 94, icon: 'tailwind' },
       { name: 'Bootstrap', level: 90, icon: 'bootstrap' },

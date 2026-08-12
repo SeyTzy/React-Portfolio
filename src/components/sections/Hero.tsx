@@ -129,7 +129,7 @@ export function Hero() {
               Hire Me <FiArrowRight className="transition-transform duration-300" />
             </MagneticButton>
             <MagneticButton
-              href="/thoeurn_seyhat_cv.pdf"
+              href="/web_developer_cv.pdf"
               className="glass text-body"
             >
               <FiDownload /> Download CV

@@ -137,7 +137,7 @@ export function Navbar() {
           <div className="flex items-center gap-3">
             <ThemeToggle />
             <a
-              href="/thoeurn_seyhat_cv.pdf"
+              href="/web_developer_cv.pdf"
               download
               className="hidden items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-primary/25 transition-all duration-300 hover:shadow-xl hover:shadow-primary/40 hover:brightness-110 md:inline-flex"
             >
