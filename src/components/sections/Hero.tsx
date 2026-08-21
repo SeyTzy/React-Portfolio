@@ -1,13 +1,13 @@
 import { motion } from 'framer-motion'
 import { FiArrowRight, FiDownload, FiGithub, FiLinkedin } from 'react-icons/fi'
-import profileImg from '@/assets/my_pf.jpg'
+import profileImg from '@/assets/profile.png'
 import { GsapParallax } from '@/components/effects/GsapParallax'
 import { MagneticButton } from '@/components/ui/MagneticButton'
 import { useTyping } from '@/hooks/useTyping'
 import { wordReveal } from '@/animations/variants'
 import { SITE } from '@/constants/site'
 
-const ROLES = ['Full Stack Developer', 'UX/UI Designer', 'ASP.NET Core Developer', 'Graphic Designer']
+const ROLES = ['Fullstack Web Developer','Networking', 'UX/UI Designer', 'ASP.NET Core Developer', 'Graphic Designer']
 
 function HeroImage() {
   return (
@@ -29,17 +29,7 @@ function HeroImage() {
         />
         <div className="absolute inset-0 rounded-full bg-primary/10" />
       </div>
-      <motion.div
-        className="glass absolute -top-3 -left-6 flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold sm:-left-12"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 3.2 }}
-      >
-        <span className="relative flex h-2 w-2">
-          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
-          <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
-        </span>
-      </motion.div>
+
       <motion.div
         className="glass absolute -right-4 bottom-8 flex items-center gap-2 rounded-2xl px-4 py-3 sm:-right-10"
         initial={{ opacity: 0, y: -20 }}
@@ -51,7 +41,7 @@ function HeroImage() {
         </span>
         <div>
           <p className="text-xs font-semibold">Open Source</p>
-          <p className="text-[11px] text-mute">Building with care</p>
+          <p className="text-[11px] text-mute">Professionally crafted</p>
         </div>
       </motion.div>
       </div>
@@ -130,7 +120,7 @@ export function Hero() {
             </MagneticButton>
 
             <MagneticButton
-              href="/web_developer_cv.pdf"
+              href="/thoeurn_seyhat_cv.pdf"
               className="glass text-body"
             >
               <FiDownload /> Download CV

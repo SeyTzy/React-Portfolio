@@ -28,9 +28,22 @@ export const experience: ExperienceItem[] = [
     icon: 'code',
   },
   {
+  role: 'Networking',
+  company: 'University Coursework',
+  period: '2024 — Present',
+  summary:
+    'Built hands-on networking knowledge through university coursework, developing skills in network configuration, troubleshooting, security, and infrastructure management.',
+  highlights: [
+    'Configured LAN/WAN networks, routers, switches, and IP addressing',
+    'Applied TCP/IP, DHCP, DNS, and subnetting concepts',
+    'Troubleshot network connectivity and performance issues',
+  ],
+  icon: 'network',
+  },
+  {
     role: 'UX/UI Designer',
     company: 'University Coursework',
-    period: '2024 — Present',
+    period: '2024 — 2025',
     summary:
       'Designed user-centric interfaces and conducted usability testing, focusing on creating intuitive and visually appealing digital experiences.',
     highlights: [
@@ -43,7 +56,7 @@ export const experience: ExperienceItem[] = [
   {
     role: 'Junior Developer (Internship)',
     company: 'School Projects & Competitions',
-    period: '2022 — 2023',
+    period: '2024 — 2025',
     summary:
       'Started the journey into software development, learning the core principles of programming, version control and web fundamentals.',
     highlights: [
@@ -74,7 +87,7 @@ export const education: EducationItem[] = [
     school: 'SETEC Institute',
     period: '2024 — Present',
     description:
-      'Pursuing a degree in MIS, focusing on the intersection of business and technology, with coursework in database management, systems analysis and software development.',
+      'Bachelor\'s degree in Management Information Systems (MIS), focusing on the intersection of business and technology, with coursework in database management, systems analysis and software development.',
     icon: 'graduation',
   },
   {
@@ -88,7 +101,7 @@ export const education: EducationItem[] = [
   {
     degree: 'Computer Science Fundamentals',
     school: 'High School',
-    period: '2019 — 2024',
+    period: '2018 — 2024',
     description:
       'Built a strong mathematical and logical foundation that sparked a lasting passion for problem solving and engineering.',
     icon: 'award',

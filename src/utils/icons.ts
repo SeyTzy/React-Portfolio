@@ -27,7 +27,7 @@ import {
   SiVuedotjs,
   SiNuxt,
 } from 'react-icons/si'
-import { TbBrandVscode, TbBrandVisualStudio, TbBrandAws, TbApi, TbWifi, TbWorld, TbShieldCheck, TbRefresh, TbComponents, TbSql } from 'react-icons/tb'
+import { TbBrandVscode, TbBrandVisualStudio, TbBrandAws, TbApi, TbWifi, TbWorld, TbShieldCheck, TbRefresh, TbComponents, TbSql, TbNetwork } from 'react-icons/tb'
 import { FaBriefcase, FaCode, FaMobileAlt, FaPalette, FaDatabase, FaServer, FaTools, FaGraduationCap } from 'react-icons/fa'
 import {
   HiOutlineBriefcase,
@@ -85,6 +85,7 @@ const registry = {
   shield: TbShieldCheck,
   refresh: TbRefresh,
   components: TbComponents,
+  network: TbNetwork,
 
   outlineBriefcase: HiOutlineBriefcase,
   outlineCode: HiOutlineCode,

@@ -1,7 +1,7 @@
 export const SITE = {
   name: 'THOEURN SEYHAT',
   title: 'Full Stack Developer',
-  email: 'thoeurn@gmail.com',
+  email: 'thoeurnseyhat@gmail.com',
   phone: '+855 99 649 877',
   location: 'Phnom Penh, Cambodia',
   resumeUrl: '/thoeurn_seyhat_cv.pdf',
