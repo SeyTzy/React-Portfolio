@@ -11,6 +11,7 @@ interface MagneticButtonProps {
   strength?: number
   type?: 'button' | 'submit'
   ariaLabel?: string
+  target?: string
 }
 
 export function MagneticButton({
@@ -21,6 +22,7 @@ export function MagneticButton({
   strength = 0.3,
   type = 'button',
   ariaLabel,
+  target,
 }: MagneticButtonProps) {
   const innerRef = useRef<HTMLSpanElement>(null)
 
@@ -59,6 +61,8 @@ export function MagneticButton({
       <motion.a
         href={href}
         aria-label={ariaLabel}
+        target={target}
+        rel={target === '_blank' ? 'noopener noreferrer' : undefined}
         className={classes}
         onMouseMove={onMove}
         onMouseLeave={onLeave}
