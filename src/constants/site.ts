@@ -26,3 +26,7 @@ export const SOCIALS = [
   { label: 'Facebook', href: SITE.facebook },
   { label: 'Email', href: `mailto:${SITE.email}` },
 ] as const
+
+export const openCV = () => {
+  window.open('/thoeurn_seyhat_cv.pdf', '_blank');
+};

@@ -6,6 +6,7 @@ import { MagneticButton } from '@/components/ui/MagneticButton'
 import { useTyping } from '@/hooks/useTyping'
 import { wordReveal } from '@/animations/variants'
 import { SITE } from '@/constants/site'
+import { openCV } from '@/constants/site'
 
 const ROLES = ['Fullstack Web Developer','Networking', 'UX/UI Designer', 'ASP.NET Core Developer', 'Graphic Designer']
 
@@ -120,11 +121,12 @@ export function Hero() {
             </MagneticButton>
 
             <MagneticButton
-              href="/thoeurn_seyhat_cv.pdf"
+              onClick={openCV}
               className="glass text-body"
             >
               <FiDownload /> Download CV
             </MagneticButton>
+            
           </motion.div>
 
           <motion.div
