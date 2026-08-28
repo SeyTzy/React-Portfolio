@@ -83,6 +83,16 @@ export const projects: Project[] = [
     liveUrl: 'https://www.figma.com/proto/cpGbCF408gXxQbF0wMUoed/Final_UX-UI?node-id=3375-217&t=jONEaff5W5ku6LxF-1&starting-point-node-id=3454%3A288',
     githubUrl: '',
   },
+  {
+    title: 'Pizza Website UX/UI Design',
+    description:
+      'Designing a modern and visually appealing website for a pizza restaurant, focusing on user experience and interface design to enhance customer engagement and online ordering.',
+    image: '/projects/pizaa_web_ui.png',
+    categories: ['Figma'],
+    technologies: ['Figma'],
+    liveUrl: 'https://www.figma.com/proto/0zkNtG7aNfVB3H9YndVujM/Food-website?node-id=0-1&t=BhVHJ6yFd3AFtu5n-1',
+    githubUrl: '',
+  },
 ]
 
 export const projectFilters = ['All', 'React', 'Angular', 'ASP.NET', 'Full Stack', 'Figma'] as const
