@@ -1,5 +1,4 @@
 import { Section, SectionTitle } from '@/components/ui/Section'
-import { Stagger, StaggerItem } from '@/components/ui/Reveal'
 
 export function GraphicDesign() {
   return (
