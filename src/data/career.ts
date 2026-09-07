@@ -8,7 +8,7 @@ export const experience: ExperienceItem[] = [
     summary:
       'Building end-to-end web applications from database schema to polished UI, delivering production-ready features for real-world use cases.',
     highlights: [
-      'Designed and shipped 15+ full stack applications',
+      'Designed and shipped 10+ full stack applications',
       'Built REST APIs with ASP.NET Core and Node.js',
       'Crafted responsive UIs with React and Tailwind CSS',
     ],

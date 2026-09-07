@@ -5,118 +5,13 @@ export function GraphicDesign() {
   return (
     <Section id="graphic-design" ariaLabel="Graphic Design work">
       <SectionTitle
-        eyebrow="Design"
+        eyebrow="Interior Design"
         title="Graphic"
-        highlight="Design"
-        description="Selected poster and visual design work."
+        highlight="Design & Studio Photography Portfolio"
+        description="Click the button below to view my graphic design and studio photography portfolio, showcasing my creative work and visual storytelling skills."
       />
-
-      <Stagger className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <StaggerItem>
-          <div className="glass-card group flex h-full flex-col overflow-hidden rounded-2xl">
-            <a
-              href="/graphic-design.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="View burger king billboard poster full size"
-              className="block overflow-hidden"
-            >
-              <img
-                src="/graphic/Billbord_Burger King-01.jpg"
-                alt="Burger King billboard poster design"
-                width={800}
-                height={600}
-                loading="lazy"
-                decoding="async"
-                className="aspect-[3/4] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
-              />
-            </a>
-            <div className="flex flex-1 flex-col justify-end p-5">
-              <a
-                href="/graphic-design.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-4 py-2.5 text-xs font-semibold text-white shadow-md shadow-primary/25 transition-all duration-300 hover:brightness-110"
-              >
-                View Poster
-              </a>
-            </div>
-          </div>
-        </StaggerItem>
-
-        <StaggerItem>
-          <div className="glass-card group flex h-full flex-col overflow-hidden rounded-2xl">
-            <a
-              href="/burchur-design.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="View house brochure poster full size"
-              className="block overflow-hidden"
-            >
-              <img
-                src="/graphic/Brochur_house-01.jpg"
-                alt="House brochure poster design"
-                width={800}
-                height={600}
-                loading="lazy"
-                decoding="async"
-                className="aspect-[3/4] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
-              />
-            </a>
-            <div className="flex flex-1 flex-col justify-end p-5">
-              <a
-                href="/burchur-design.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-4 py-2.5 text-xs font-semibold text-white shadow-md shadow-primary/25 transition-all duration-300 hover:brightness-110"
-              >
-                View Brochure
-              </a>
-            </div>
-          </div>
-        </StaggerItem>
-
-        <StaggerItem>
-          <div className="glass-card group flex h-full flex-col overflow-hidden rounded-2xl">
-            <a
-              href="/varman-design.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="View watch poster full size"
-              className="block overflow-hidden"
-            >
-              <img
-                src="/graphic/Varman_Watch-01.jpg"
-                alt="Watch poster design"
-                width={800}
-                height={600}
-                loading="lazy"
-                decoding="async"
-                className="aspect-[3/4] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
-              />
-            </a>
-            <div className="flex flex-1 flex-col justify-end p-5">
-              <a
-                href="/varman-design.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-4 py-2.5 text-xs font-semibold text-white shadow-md shadow-primary/25 transition-all duration-300 hover:brightness-110"
-              >
-                View Poster
-              </a>
-            </div>
-          </div>
-        </StaggerItem>
-
-      </Stagger>
-
       <div className="mt-16">
-        <h3 className="font-heading text-center text-2xl font-semibold text-body">
-          Studio <span className="text-primary">Photography</span>
-        </h3>
-        <p className="mx-auto mt-2 max-w-xl text-center text-sm leading-relaxed text-mute">
-          Selected studio photography portfolio.
-        </p>
+
         <div className="mt-8 flex justify-center">
           <a
             href="https://drive.google.com/drive/folders/1DWa85IT5d47k5tUWwcOlNXGhWr-gKxI9?usp=sharing"
@@ -124,7 +19,7 @@ export function GraphicDesign() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white shadow-md shadow-primary/25 transition-all duration-300 hover:brightness-110"
           >
-            View My Studio Photography
+            View My Graphic Design & Studio Photography Work
           </a>
         </div>
       </div>

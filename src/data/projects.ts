@@ -2,47 +2,16 @@ import type { Project } from '@/types'
 
 export const projects: Project[] = [
   {
-    title: 'Phone Shop',
+    title: 'Pizza Website',
     description:
       'A modern ecommerce experience for mobile devices featuring product catalog, cart, checkout flow and admin inventory panel.',
-    image: '/projects/phon_shop.png',
-    categories: ['Angular'],
-    technologies: ['Angular', 'TypeScript', 'Tailwind CSS', 'Firebase'],
-    liveUrl: 'https://angular-mobile-shop-5vjrzntjy-seytzys-projects.vercel.app',
-    githubUrl: 'https://github.com/SeyTzy/Angular-mobile-shop',
-    featured: true,
-  },
-  {
-    title: 'Student Management System',
-    description:
-      'A full CRUD application for managing student records with search, filtering, pagination and beautiful reporting tables.',
-    image: '/projects/school_mgt.png',
-    categories: ['Angular'],
-    technologies: ['Angular', 'TypeScript', 'Bootstrap', 'REST API'],
-    liveUrl: 'https://school-manangement-crud-1t94k8f81-seytzys-projects.vercel.app',
-    githubUrl: 'https://github.com/SeyTzy/School-Manangement-Crud',
-  },
-  {
-    title: 'ASP.NET Core REST API',
-    description:
-      'A production-style REST API with JWT authentication, role-based authorization, repository pattern and SQL Server persistence.',
-    image: '/projects/web_api.png',
-    categories: ['ASP.NET'],
-    technologies: ['ASP.NET Core', 'Entity Framework', 'SQL Server', 'JWT'],
-    liveUrl: 'https://seyhatfckboy.setec24.uk/swagger/index.html',
-    githubUrl: 'https://github.com/SeyTzy/',
-  },
-  {
-    title: 'Portfolio Website',
-    description:
-      'This premium portfolio — a high-performance, animated showcase built with React, Vite, Tailwind, GSAP and Framer Motion.',
-    image: '/projects/porfolio.png',
+    image: '/projects/pizza_web.png',
     categories: ['React'],
-    technologies: ['HTML', 'CSS', 'JavaScript',],
-    liveUrl: 'https://portfolio-v1-5nql11omh-seytzys-projects.vercel.app',
-    githubUrl: 'https://github.com/SeyTzy/',
+    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'GSAP'],
+    liveUrl: 'https://pizza-web-app-delta.vercel.app/',
+    githubUrl: 'https://github.com/SeyTzy/pizza-web-app'
   },
-  {
+   {
     title: 'E-commerce Platform',
     description:
       'A modern ecommerce experience for mobile devices featuring product catalog, cart, checkout flow and admin inventory panel.',
@@ -58,10 +27,42 @@ export const projects: Project[] = [
     description:
       'A modern ecommerce experience for mobile devices featuring product catalog, cart, checkout flow and admin inventory panel.',
     image: '/projects/mega_mart.png',
-    categories: ['Full Stack'],
+    categories: ['Angular'],
     technologies: ['Angular', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Rest API'],
     liveUrl: 'https://web-final2-vyn2svycc-seytzys-projects.verel.app',
     githubUrl: 'https://github.com/SeyTzy/Web-Final2',
+  },
+  {
+    title: 'Phone Shop',
+    description:
+      'A modern ecommerce experience for mobile devices featuring product catalog, cart, checkout flow and admin inventory panel.',
+    image: '/projects/phon_shop.png',
+    categories: ['Angular'],
+    technologies: ['Angular', 'TypeScript', 'Tailwind CSS', 'Firebase'],
+    liveUrl: 'https://angular-mobile-shop-5vjrzntjy-seytzys-projects.vercel.app',
+    githubUrl: 'https://github.com/SeyTzy/Angular-mobile-shop',
+    featured: true,
+  },
+  {
+    title: 'ASP.NET Core REST API',
+    description:
+      'A production-style REST API with JWT authentication, role-based authorization, repository pattern and SQL Server persistence.',
+    image: '/projects/web_api.png',
+    categories: ['ASP.NET'],
+    technologies: ['ASP.NET Core', 'Entity Framework', 'SQL Server', 'JWT'],
+    liveUrl: 'https://seyhatfckboy.setec24.uk/swagger/index.html',
+    githubUrl: 'https://github.com/SeyTzy/',
+  },
+ 
+  {
+    title: 'Pizza Website UX/UI Design',
+    description:
+      'Designing a modern and visually appealing website for a pizza restaurant, focusing on user experience and interface design to enhance customer engagement and online ordering.',
+    image: '/projects/pizaa_web_ui.png',
+    categories: ['Figma'],
+    technologies: ['Figma'],
+    liveUrl: 'https://www.figma.com/proto/0zkNtG7aNfVB3H9YndVujM/Food-website?node-id=0-1&t=BhVHJ6yFd3AFtu5n-1',
+    githubUrl: '',
   },
   {
     title: 'ABA Mobile App UX/UI Design',

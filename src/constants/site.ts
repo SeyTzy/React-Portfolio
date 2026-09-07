@@ -1,6 +1,6 @@
 export const SITE = {
   name: 'THOEURN SEYHAT',
-  title: 'Full Stack Developer',
+  title: 'Full Stack Developer & UX/UI Designer',
   email: 'thoeurnseyhat@gmail.com',
   phone: '+855 99 649 877',
   location: 'Phnom Penh, Cambodia',
